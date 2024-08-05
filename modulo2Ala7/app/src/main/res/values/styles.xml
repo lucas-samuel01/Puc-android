@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="circleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+
+    </style>
+
+    <style name="searchViewStyle">
+        <item name="android:editTextColor">@color/white</item>
+        <item name="android:tint">@color/white</item>
+        <item name="searchIcon">@drawable/search_icon</item>
+    </style>
+
+    <style name="posterStyle">
+        <item name="shapeAppearance">@style/circularImagePosterStyle</item>
+    </style>
+
+    <style name="circularImagePosterStyle">
+        <item name="cornerSize">15%</item>
+    </style>
+</resources>

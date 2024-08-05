@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/movieImagePoster"
+        android:layout_width="178dp"
+        android:layout_height="238dp"
+        android:src="@mipmap/poster"
+        style="@style/posterStyle"
+        />
+    <TextView
+        android:id="@+id/movieTextTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="Titulo do filme"
+        android:textColor="@color/white"
+
+        />
+    <TextView
+        android:id="@+id/movieTextNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="NOta 4/5"
+        android:textColor="@color/white"
+
+        />
+</LinearLayout>
